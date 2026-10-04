@@ -1,0 +1,21 @@
+# data and generated artifacts, none of this belongs in git
+artifacts/
+figures/
+*.npz
+*.edf
+*.mat
+*.zip
+
+# notebook noise
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
